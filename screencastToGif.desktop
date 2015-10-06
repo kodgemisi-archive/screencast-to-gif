@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Keywords=screencast;gif;record;screen
+Icon=/opt/screencastToGif/screencastToGif.png
+Name=Screencast to Gif
+Terminal=false
+Exec=/opt/screencastToGif/screencastToGif.sh
+Hidden=false
