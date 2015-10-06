@@ -3,7 +3,7 @@
 Execute above command and you're done
 
 ```
-wget https://gist.github.com/destan/bebeaba60058837a70c1/archive/a14e0ec43caa34ddebc3e52d4dcfc69ba235d039.zip && unzip a14e0ec43caa34ddebc3e52d4dcfc69ba235d039.zip && cd bebeaba60058837a70c1-a14e0ec43caa34ddebc3e52d4dcfc69ba235d039 && ./install.sh
+wget https://github.com/kodgemisi/screencast-to-gif/archive/master.zip -O screencast-to-gif-master.zip && unzip screencast-to-gif-master.zip && cd screencast-to-gif-master && ./install.sh
 ```
 
 

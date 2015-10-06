@@ -16,11 +16,13 @@ echo 'slop installed'
 cd .. # go back to installation folder from /slop
 sudo rm -rfv /opt/screencastToGif
 sudo mkdir /opt/screencastToGif
-sudo cp screencastToGif.png screencastToGif.sh /opt/screencastToGif
-sudo chmod 444 /opt/screencastToGif/screencastToGif.png
+sudo cp screencastToGif.png screencastToGif.sh tick.sh tick.wav dong.wav /opt/screencastToGif
+sudo chmod 444 /opt/screencastToGif/screencastToGif.png /opt/screencastToGif/tick.wav /opt/screencastToGif/dong.wav
+echo 'files copied to /opt/screencastToGif'
 
 # Bind Desktop file
 sudo cp screencastToGif.desktop /usr/share/applications
+echo 'Unity binding done'
 
 echo ''
 echo '========================================================================'
